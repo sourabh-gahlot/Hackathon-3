@@ -1,0 +1,32 @@
+.whats-hot-title{
+  display: flex;
+  margin-left: 580px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;  
+   
+  }
+  
+.grid{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px ;
+    } 
+.post-align{
+  width: 200px;
+
+}
+.len{
+  width: 200px;  
+}
+.moviedetails{
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}

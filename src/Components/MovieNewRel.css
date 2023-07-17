@@ -1,0 +1,59 @@
+.new-releases-title{
+    text-align: center;
+}
+
+.poster-container{
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-bottom: -16px;
+  display: flex;
+  height: 800px;
+}
+.poster-container h3,
+.poster-container h6,
+.poster-container p  {
+  margin-left: 2.5em;
+}
+
+.poster-details h3{
+  margin-left: 1.25em;
+}
+
+.poster-details{
+  text-align: left;
+}
+.title{
+  width: 300px;
+  
+}
+
+
+
+.bullet-navigation{
+  text-align: center;
+  margin-bottom: 25px;
+  
+}
+
+
+.bullet-button {
+    background-color: #ccc;
+    border: none;
+    border-radius: 50%;
+    width: 5px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .line{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+  }
+  
+  .bullet-button.active {
+    background-color: grey;
+    
+  }
